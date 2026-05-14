@@ -27,10 +27,20 @@
   --color-dark-error: #f97066; /* border error and error */
 }
 
-/* remove date icon */
+
+/* date picker indicator */
 input[type="date"]::-webkit-calendar-picker-indicator {
-  display: none;
-  -webkit-appearance: none;
+  cursor: pointer;
+  float: left;
+  margin-right: auto;
+}
+
+.light input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: brightness(0);
+}
+
+.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: brightness(0) invert(1);
 }
 
 /* handle scroll bar */

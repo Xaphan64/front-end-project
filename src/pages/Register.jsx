@@ -245,15 +245,10 @@ export default function Register() {
               name="birthDate"
               value={input.birthDate}
               onChange={handleChange}
-              className={`sm:p-2 w-full sm:px-11 focus:outline-none focus:ring-0 rounded-md sm:border-2 sm:text-lg
-              p-1 border-1 text-sm px-8 light:text-light-text dark:text-dark-text light:border-light-border
+              className={`sm:p-2 w-full sm:pl-2 focus:outline-none focus:ring-0 rounded-md sm:border-2 sm:text-lg
+              p-1 border-1 text-sm pl-2 light:text-light-text dark:text-dark-text light:border-light-border
               dark:border-dark-border dark:bg-dark-input-bg dark:focus:border-dark-focus light:focus:border-light-focus
               ${error.birthDate ? "light:border-light-error dark:border-dark-error" : ""}`}
-            />
-
-            <CalendarTodayIcon
-              sx={{ fontSize: { xs: 18, sm: 26, md: 26 } }}
-              className="absolute light:text-light-text dark:text-dark-text sm:left-2 left-1 pointer-events-none"
             />
           </div>
         </div>
