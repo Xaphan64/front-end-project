@@ -253,7 +253,7 @@ export default function Register() {
 
             <CalendarTodayIcon
               sx={{ fontSize: { xs: 18, sm: 26, md: 26 } }}
-              className="absolute light:text-light-text dark:text-dark-text sm:left-2 left-1"
+              className="absolute light:text-light-text dark:text-dark-text sm:left-2 left-1 pointer-events-none"
             />
           </div>
         </div>
