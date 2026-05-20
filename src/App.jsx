@@ -17,6 +17,7 @@ import ErrorPage from "./pages/ErrorPage";
 import MovieDetails from "./components/MovieDetails";
 import AuthenticationProvider from "./config/AuthenticationProvider";
 import Watchlist from "./pages/Watchlist";
+import Footer from "./components/Footer";
 
 // CONFIGURATION
 function App() {
